@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context=".MainActivity"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/nanodegree_title"
+        android:textSize="14sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+>
+
+        <Button
+            android:id="@+id/bn_project1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="SPOTIFY STREAMER"
+            android:onClick="project1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bn_project2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="SCORES APP"
+            android:onClick="project2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bn_project3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="LIBRARY APP"
+            android:onClick="project3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bn_project4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="BUILD IT BIGGER"
+            android:onClick="project4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bn_project5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="BACON READER"
+            android:onClick="project5"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/bn_project6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@android:color/holo_red_dark"
+            android:text="CAPSTONE: MY OWN APP"
+            android:onClick="project6"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
